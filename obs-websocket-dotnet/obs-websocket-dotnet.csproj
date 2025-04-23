@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.1</TargetFramework>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<AssemblyName>obs-websocket-dotnet</AssemblyName>
 		<RootNamespace>OBSWebsocketDotNet</RootNamespace>
 		<Copyright>Copyright © BarRaider 2025</Copyright>
@@ -30,7 +30,7 @@
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.4" />
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-	  <PackageReference Include="Websocket.Client" Version="5.1.2" />
+	  <PackageReference Include="Websocket.Client" Version="4.7.0" />
 	</ItemGroup>
 
 	<ItemGroup>
