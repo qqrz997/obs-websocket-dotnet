@@ -21,7 +21,6 @@ namespace OBSWebsocketDotNet
 
         /// <summary>
         /// The list of scenes has changed.
-        /// TODO: Make OBS fire this event when scenes are reordered.
         /// </summary>
         public event EventHandler<SceneListChangedEventArgs> SceneListChanged;
 
